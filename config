@@ -1,0 +1,13 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 15,
+    // Choose between "modules-left", "modules-center", or "modules-right"
+    "modules-center": ["clock"],
+
+    "clock": {
+        // Format string: %H:%M is 24h, %I:%M %p is 12h with AM/PM
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    }
+}
