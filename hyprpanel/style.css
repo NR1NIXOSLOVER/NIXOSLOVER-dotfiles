@@ -1,0 +1,23 @@
+/* Base bar styling */
+window.panel {
+    background-color: rgba(17, 17, 27, 0.85); /* Deep dark background */
+    border-bottom: 1px solid #5277c3; /* NixOS Blue accent border */
+}
+
+/* Force the ultra-thin 18px height */
+.module {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #cdd6f4;
+    padding: 0px 8px;
+    margin: 2px 0px;
+    min-height: 18px;
+}
+
+/* Active workspace highlight */
+.workspaces button.active {
+    color: #5277c3;
+    background-color: rgba(82, 119, 195, 0.2);
+    border-radius: 4px;
+}
